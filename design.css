@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+.container{
+    margin-left: 25%;
+    max-width: 600px;
+    width: 140%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    height: auto;
+    
+}
+
+.container .title{
+    margin-top: 10%;
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    color: #223c53;
+   
+}
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+   color: #3b4c58;;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+width:calc(100% /2 - 20px);
+font-size: 13px;
+}
+ .user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.user-details .input-box input{
+    height: 30px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+}
+.line1{
+    font-weight: bold;
+    margin-top: 10%;
+    font-size: 19px;
+    color: #657c8f;
+    
+    
+}
+.line2{
+    margin-top: 5%;
+    font-weight: 50;
+    font-size: 13px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: silver;
+}
+img{
+    max-width: 700px;
+    height: 50%;
+    border-radius: 5px;   
+}
+.button{
+    margin-top: 5%;
+    
+}
+#button-edit{
+    color: white;
+    border-radius:5px;
+    width: 30%;
+    height: 40px;
+    background-color: #0071ff;
+    outline: none;
+    border-width: 0cm;
+}
+label{
+    font-size: 13px;
+    color: #89959f;
+    margin:2%;
+}
+a{
+    text-decoration: none;
+    color: #4381c1;
+}
+#already{
+    margin-top: 3%;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550;
+}
+
+.container2 img{
+    
+    max-width: 715px;
+    padding: 30px;
+    width: 150%;
+    border-radius: 5px;
+    height: 710px; 
+}
+    
+ 
